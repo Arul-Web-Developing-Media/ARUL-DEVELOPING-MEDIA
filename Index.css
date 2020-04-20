@@ -143,3 +143,16 @@ a {
   color: white;
   background-color: black;
 }
+.logo{
+  height: 3rem;
+    width: 4rem;
+    margin-left: 33rem;
+    margin-top: -10px;
+    opacity: 0.5;
+    transition: transform .2s;
+    position: fixed;
+}
+.logo:hover{
+  opacity: 1;
+  transform: scale(1.4);
+}
