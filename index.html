@@ -130,10 +130,44 @@
             <!-- services section end here -->
 
             <section id="ourBlog">
+                <!-- heading -->
+                <div class="heading">
+                    <h1>Our Blog</h1>
+                </div>
 
+                <div class="carousel">
+                    <button class="carousel-btn carousel-btn-left is-hidden">
+                        <img src="images/left-arrow.svg" alt="left">
+                    </button>
+                    <div class="carousel-container">
+                        <ul class="carousel-track">
+                            <li class="carousel-slide current-slide">
+                                <img class="carousel-image" src="images/Languages.jpg" alt="languages">
+                            </li>
+                            <li class="carousel-slide">
+                                <img class="carousel-image" src="images/tools.jpg" alt="tools">
+                            </li>
+                            <li class="carousel-slide">
+                                <img class="carousel-image" src="images/git.png" alt="git">
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="carousel-btn carousel-btn-right">
+                        <img src="images/arrow-point-to-right.svg" alt="right">
+                    </button>
+
+                    <div class="carousel-nav">
+                        <button class="carousel-indicators current-slide"></button>
+                        <button class="carousel-indicators"></button>
+                        <button class="carousel-indicators"></button>
+                    </div>
+                </div>
             </section>
         </main>
     </div>
+
+    <!-- js linking -->
+    <script src="carousel.js"></script>
 </body>
 
 </html>
