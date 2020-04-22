@@ -26,6 +26,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: fixed;
 }
 
 .navbar {
@@ -147,8 +148,8 @@ a {
 .logo{
   height: 3rem;
     width: 4rem;
-    margin-left: 33rem;
-    margin-top: -10px;
+    margin-left: 0rem;
+    margin-top: -30px;
     opacity: 0.5;
     transition: transform .2s;
     position: fixed;
