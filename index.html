@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
         integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
 
-	<!--css linking-->
-	<link rel="stylesheet" type="text/css" href="css/Index.css">
+    <!-- css linking -->
+    <link rel="stylesheet" href="css/styles.css">
 
 	<link rel="shortcut icon" href="images/Arul.png" type="image/x-icon">
 </head>
@@ -17,17 +17,18 @@
             <div class="nav-container">
                 <nav class="navbar">
                     <ul class="nav-list">
-                        <li class="nav-item"><a href="Index.html" class="pri-color nav-link">Home</a></li>
+                        <li class="nav-item"><a href="index.html" class="pri-color nav-link">Home</a></li>
                         <li class="nav-item">
                             <div class="dropdown">
                                 <button class="dropbtn">
-                                    <a href="Home.html" class="nav-link">Our services<i class="fas fa-caret-down"></i></a>
+                                    <a href="#ourServices" class="nav-link">Our services<i
+                                            class="fas fa-caret-down"></i></a>
                                 </button>
                                 <div class="dropdown-content">
-                                    <a href="Home.html" class="dropdown-link disabled">Android Development</a>
+                                    <a href="#ourServices" class="dropdown-link disabled">Android Development</a>
                                     <hr>
-                                    <a href="Home.html" class="dropdown-link">Web Design</a>
-                                    <a href="Home.html" class="dropdown-link">Web Development</a>
+                                    <a href="#ourServices" class="dropdown-link">Web Design</a>
+                                    <a href="#ourServices" class="dropdown-link">Web Development</a>
                                 </div>
                             </div>
                         </li>
@@ -54,5 +55,106 @@
                 </a>
             </div>
         </section>
+    </header>
+
+
+    <!-- main wrapper start header -->
+    <div class="site-wrapper">
+        <main id="main">
+
+            <!-- services section start here -->
+            <section id="ourServices">
+                <!-- heading -->
+                <div class="heading">
+                    <h1>Our Services</h1>
+                </div>
+                <div id="service_box" class="services-box">
+
+                    <!-- box 1 -->
+                    <div class="box-shelter">
+                        <div class="box-content">
+                            <img src="images/app-development.svg" alt="App Development">
+
+                            <div class="box-text">
+                                <h2>App Design</h2>
+                                <p>We use modern techniques with fast and latest technologies to create awesome
+                                    interactive UI for our clients for best user experience.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- box 2 -->
+                    <div class="box-shelter">
+                        <div class="box-content">
+                            <img src="images/computer.svg" alt="Web Design">
+
+                            <div class="box-text">
+                                <h2>Web Design</h2>
+                                <p>We have most experienced web designers that makes your website responsive in avery
+                                    aspect, even in 😂 <span class="joke">Jio Phone</span></p>
+                            </div>̥
+                        </div>
+                    </div>
+
+                    <!-- box 3 -->
+                    <div class="box-shelter">
+                        <div class="box-content">
+                            <img src="images/code.svg" alt="Web Development">
+
+                            <div class="box-text">
+                                <h2>Web Development</h2>
+                                <p>We build powerful backend support that runs your website flawless and makes your
+                                    website database more secure and reliable.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!-- services section end here -->
+
+
+
+
+            <section id="ourBlog">
+                <!-- heading -->
+                <div class="heading">
+                    <h1>Our Blog</h1>
+                </div>
+
+                <div class="carousel">
+                    <button class="carousel-btn carousel-btn-left is-hidden">
+                        <img src="images/left-arrow.svg" alt="left">
+                    </button>
+                    <div class="carousel-container">
+                        <ul class="carousel-track">
+                            <li class="carousel-slide current-slide">
+                                <img class="carousel-image" src="images/Languages.jpg" alt="languages">
+                            </li>
+                            <li class="carousel-slide">
+                                <img class="carousel-image" src="images/tools.jpg" alt="tools">
+                            </li>
+                            <li class="carousel-slide">
+                                <img class="carousel-image" src="images/git.png" alt="git">
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="carousel-btn carousel-btn-right">
+                        <img src="images/arrow-point-to-right.svg" alt="right">
+                    </button>
+
+                    <div class="carousel-nav">
+                        <button class="carousel-indicators current-slide"></button>
+                        <button class="carousel-indicators"></button>
+                        <button class="carousel-indicators"></button>
+                    </div>
+                </div>
+            </section>
+    </div>
+    </main>
+
+
+    <!-- js linking -->
+    <script src="js/carousel.js"></script>
 </body>
 </html>
