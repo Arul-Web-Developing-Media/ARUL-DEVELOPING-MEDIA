@@ -122,9 +122,8 @@ a {
 #main button{
 	/*background-color: solid black;*/
 	border: 0;
-	border-radius: 5px;
-	height: 5vh;
-	width: 20vh;
+  border-radius: 5px;
+  padding: 8px;
 	margin-top: 2.5vh;
 	margin-left: 42em;
 	color: black;
