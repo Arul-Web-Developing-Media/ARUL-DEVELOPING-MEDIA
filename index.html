@@ -129,6 +129,9 @@
             </section>
             <!-- services section end here -->
 
+
+
+
             <section id="ourBlog">
                 <!-- heading -->
                 <div class="heading">
@@ -163,11 +166,35 @@
                     </div>
                 </div>
             </section>
+        </div>
+
+
+        <div class="contact_us">
+            <section id="contact_us-page">
+                <div class="form">
+                    <form id="myform">
+                        <h2>Contact Us</h2>
+                        <div id="error_message"></div>
+                        <input id="name" type="text" name="" placeholder="Full Name....">
+                        <input id="mobile" type="text" placeholder="Mobile....." name="">
+                        <input id="email" type="text" placeholder="Email...." name="">
+                        <input id="subject" type="text" placeholder="Subject...." name="">
+                        <textarea id="message" placeholder="Your Message Here...."></textarea>
+                        <div class="button">
+                            <input id="button" type="submit" onclick="return validation()">
+                        </div>
+                    </form>
+            
+                </div>
+        </div>
+        
+        </section>
         </main>
-    </div>
+    
 
     <!-- js linking -->
     <script src="carousel.js"></script>
+    <script src="contact_us.js"></script>
 </body>
 
 </html>
