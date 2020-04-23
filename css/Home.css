@@ -280,5 +280,102 @@ a {
   display: none;
 }
 
+/* footer start here */
 
+#footer {
+  width: 100%;
+  background-color: #d0cde1;
+}
 
+.footer {
+  width: 80%;
+  margin: 2rem auto 0 auto;
+  padding-top: 2rem;
+}
+
+.f-1 {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  height: 11rem;
+  margin: 0 auto 1rem auto;
+}
+
+.f-2 {
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.footer-list {
+  list-style-type: none;
+}
+
+.footer-list li {
+  margin-bottom: 4px;
+}
+
+.contact-shelter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.contact-shelter i {
+  font-size: 2rem;
+}
+
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 11rem;
+}
+
+.f-hr {
+  height: 2px;
+  width: 100%;
+  background: black;
+}
+
+.footer-link-item {
+  color: black;
+}
+
+.footer-link-item:hover {
+  color: #207561;
+  cursor: pointer;
+}
+
+.contact-shelter *:hover {
+  color: #207561;
+  cursor: pointer;
+}
+
+.facebook {
+  filter: invert(38%) sepia(60%) saturate(461%) hue-rotate(180deg)
+    brightness(94%) contrast(104%);
+}
+
+.twitter {
+  filter: invert(67%) sepia(98%) saturate(1187%) hue-rotate(176deg)
+    brightness(90%) contrast(92%);
+}
+
+.instagram {
+  filter: invert(39%) sepia(75%) saturate(804%) hue-rotate(326deg)
+    brightness(103%) contrast(105%);
+}
+
+.github {
+  filter: invert(10%) sepia(12%) saturate(971%) hue-rotate(169deg)
+    brightness(94%) contrast(84%);
+}
