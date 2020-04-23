@@ -59,6 +59,7 @@ a {
 	border-radius: 0.25rem;
 	padding: 5px 0;
 	background-color: white;
+	z-index: 2;
   }
   
   .dropdown:hover .dropdown-content {
@@ -81,6 +82,7 @@ a {
 	width: 50px;
 	transition: 0.2s;
 	opacity: 0.5;
+	cursor: default;
   }
   
   .logo:hover {
