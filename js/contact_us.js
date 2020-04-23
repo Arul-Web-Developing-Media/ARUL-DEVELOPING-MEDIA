@@ -42,5 +42,5 @@ function validation() {
 
 	alert("Form Submitted Successfully!");
 
-	return false;
+	return true;
 }
