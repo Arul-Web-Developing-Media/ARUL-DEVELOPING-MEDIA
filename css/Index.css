@@ -109,7 +109,7 @@ a {
 
 #main #hr{
 	width: 200px;
-	margin-left: 80vh;
+	margin-left: 33em;
 	margin-top: 2.5vh;
 	border:1px solid seagreen;
 }
@@ -126,7 +126,7 @@ a {
 	height: 5vh;
 	width: 20vh;
 	margin-top: 2.5vh;
-	margin-left: 85vh;
+	margin-left: 42em;
 	color: black;
 	text-transform: uppercase;
 	cursor: pointer;
