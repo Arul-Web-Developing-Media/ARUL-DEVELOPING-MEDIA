@@ -86,6 +86,7 @@ a {
   }
   
   .logo:hover {
+	cursor: pointer;
 	transform: scale(1.4);
 	opacity: 1;
   }
