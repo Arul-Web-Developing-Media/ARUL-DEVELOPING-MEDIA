@@ -219,7 +219,6 @@ a {
 .carousel-container {
   background-color: aquamarine;
   position: relative;
-  list-style: none;
   height: 100%;
   overflow: hidden;
 }
