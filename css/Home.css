@@ -280,6 +280,7 @@ a {
   display: none;
 }
 
+
 /* footer start here */
 
 .i-css {
@@ -366,12 +367,19 @@ a {
   font-size: 22px;
 }
 
+.fb1-contact2-img{
+  margin-left: 10px;
+  width: auto;
+}
+
 .fb2-quick_links {
   display: flex;
+  list-style: none;
   flex-direction: column;
   justify-content: space-between;
   height: 10rem;
   font-size: 20px;
+  margin-left: 1.5em;
 }
 
 .fb2 {
